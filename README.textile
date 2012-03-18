@@ -1,0 +1,21 @@
+h1. picslurp
+
+picslurp is a quick and dirty bash script to automate the process of importing images from digital media. It's a personal use script that I share here for the benefit of anyone who wants to use it or is developing their own similar scripts. I'm sure it's far from robust, and will probably cause you more headaches than benefit, and that there are probably lots of far-more-mature and clearly-superior existing scripts out there, but it works for me.
+
+h1. Usage
+
+To use picslurp, just cd into the directory where you want your pictures to end up, and run `./slurp.sh`. picslurp will search through the hard-coded source directories for images in any of the hard-coded formats, then move them into a destination directory called "import_YYYY_MM_DD" (where YYYY, MM and DD correspond to the current year, month and day, respectively). If this destination directory doesn't exist, picslurp will create it.
+
+I'm going to add an option to specify an additional source directory(ies) on the command line, and maybe some other fun stuff. If you have any suggestions/requests/corrections, feel free to open an issue to let me know about them.
+
+h1. Contributing
+
+If you want to contribute anything to picslurp, feel free to fork the repo and open pull requests. You can also contribute by opening issues or scribbling in the wiki.
+
+I use the excellent "git-flow":https://github.com/nvie/gitflow workflow when I develop picslurp. For that reason, *all pull requests should be commits against the _develop_ branch!*
+
+h1. Disclaimer
+
+Source: "GPL":http://www.gnu.org/copyleft/gpl.html
+
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
