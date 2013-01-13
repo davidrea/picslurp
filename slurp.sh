@@ -5,10 +5,15 @@
 filetypes=(
 	"jpg"
 	"cr2"
+	"mp4"
+	"mov"
 )
 
 targets=(
 	"/media/EOS_DIGITAL"
+	"/media/CANON_DC"
+	"/media/CAM"
+	"/media/1GBMICROSD"
 )
 
 target_count=${#targets[@]}
