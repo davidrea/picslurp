@@ -14,6 +14,7 @@ targets=(
 	"/media/CANON_DC"
 	"/media/CAM"
 	"/media/1GBMICROSD"
+	"/media/david/EOS_DIGITAL"
 )
 
 target_count=${#targets[@]}
