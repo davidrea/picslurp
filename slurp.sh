@@ -44,4 +44,5 @@ do
 		fi
 		find $target -iname "*.${type}" -exec mv -vi '{}' $destination \;
 	done
+	exiftool '-FileName<CreateDate' -d '%Y%m%d-%H%M%S%%-c.%%le' $destination/IMG*
 done
