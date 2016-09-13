@@ -43,6 +43,6 @@ do
 			echo "Created directory: $destination"
 		fi
 		find $target -iname "*.${type}" -exec mv -vi '{}' $destination \;
+		exiftool '-FileName<CreateDate' -d '%Y%m%d-%H%M%S%%-c.%%le' $destination/*.${filetypes[$j]} $destination/*.${filetypes[$j]^^}
 	done
-	exiftool '-FileName<CreateDate' -d '%Y%m%d-%H%M%S%%-c.%%le' $destination/IMG*
 done
