@@ -7,6 +7,7 @@ filetypes=(
 	"cr2"
 	"mp4"
 	"mov"
+	"raf"
 )
 
 targets=(
@@ -15,6 +16,7 @@ targets=(
 	"/media/CAM"
 	"/media/1GBMICROSD"
 	"/media/david/EOS_DIGITAL"
+	"/media/david/disk"
 )
 
 target_count=${#targets[@]}
