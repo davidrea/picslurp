@@ -1,0 +1,3 @@
+[submodule "cleanup-script"]
+	path = cleanup-script
+	url = git@gist.github.com:4271012.git
