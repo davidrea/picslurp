@@ -1,3 +1,5 @@
+h1. picslurp development has been moved to GitLab: https://gitlab.com/mtbkrdave/picslurp
+
 h1. picslurp
 
 picslurp is a quick and dirty bash script to automate the process of importing images from digital media. It's a personal use script that I share here for the benefit of anyone who wants to use it or is developing their own similar scripts. I'm sure it's far from robust, and will probably cause you more headaches than benefit, and that there are probably lots of far-more-mature and clearly-superior existing scripts out there, but it works for me.
